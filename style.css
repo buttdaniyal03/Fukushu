@@ -1,0 +1,680 @@
+*{
+    margin:0px;  
+    padding: 0;
+    box-sizing: border-box; 
+}
+
+     body{
+          margin: 0px;
+          padding: 0px;
+          box-sizing: border-box;
+      }
+  
+      .container{
+          margin: 0 auto;
+          max-width: 1170px;
+          width: 100%;
+      }
+      
+      
+      nav{
+          background-image: url(../Fukushu/images/header-background.png);
+          border-radius: 0px!important;
+          margin-bottom: 0px !important;
+          background-size: cover;
+          border: none !important;
+      } 
+      .navbar-brand img{
+          padding: 0 20px;
+      }
+  
+      .navbar-nav {
+          float: right;
+          padding: 3px;
+          list-style: none;
+      }
+      .navbar-nav li a {
+          color: #fff;
+      }
+      .collapse ul li{
+          list-style: none;
+          padding: 10px 10px 0 10px;
+      
+      }
+      .collapse ul li a{
+          color: #fff;
+      }
+      .navbar-toggler{
+          display: none;
+          width: 35px;
+          height: 30px;
+          float: right;
+          margin: 10px;
+      }
+      
+  
+  
+  
+  .announce{
+      background-color: black;
+  }
+
+  .announce__text{
+    text-align: center;
+    height: auto;
+    padding: 30px 0;
+    color: #fff;
+    margin: 0 auto;
+  }
+
+  .announce--h{
+      font-size: 18px;
+      margin: 0;
+  }
+
+  .announce--p{
+    font-size: 30px;
+    text-decoration: underline;
+    margin: 0;
+    text-decoration-color: brown;
+}
+
+  .obon{
+      background-image: url(../Fukushu/images/obon.background.image.png);
+      width: 100%;
+      height: 630px;
+      background-repeat: no-repeat;
+      background-position: center;
+      background-size: cover;
+      text-align: center;
+  }
+  
+  
+  .obon .obon_main{
+      width: 50%;
+      padding: 200px 20px;
+     
+  }
+  .obon .obon_logo{
+      width: 100%; 
+  }
+  
+  .obon .obon_descrip{
+      width: 100%;
+      color: #fff;
+      padding: 30px 0px;
+  
+  }
+  
+  
+  .fresh{
+      background-image: url('../Fukushu/images/goodness-background.png');
+      width: 100%;
+      background-position: center;
+      background-repeat: no-repeat;    
+      background-size: cover;
+  }
+  
+  .fresh .goodness{
+    
+      width: 55%;
+      float: right;
+      padding: 60px 40px;
+  }
+  
+  .fresh .goodness_logo{
+      float: right;
+      padding: 10px 50px;
+      width: 100%;
+      
+  }
+  
+  .fresh .goodness_text{
+      float: right;
+      width: 100%;
+      color: #ffff;
+      text-align: center;
+  }
+  .fresh .goodness_text p{
+      padding: 0 170px 0px 70px;
+  }
+  .rown{
+      width: 100%;
+      overflow: hidden;
+      display: flex;
+  }
+  
+  .rown .right{
+      background-image: url(../Fukushu/images/duck-background.png);
+      background-position: center;
+      width: 50%;
+  }
+  .rown .left{
+      background-image: url(../Fukushu/images/chicken-background.png);
+      width: 50%;
+      background-position: center;
+      background-size: cover;
+  }
+  .rown p{
+    padding: 0 20px;
+  }
+  
+  
+  .bird_duck{
+      height: 600px;
+      color: #fff;
+      text-align: center;
+          
+  }
+  .bird{
+      
+      padding: 250px 0px 0 0px;
+  }
+  .duck{
+     
+      padding: 190px 0px 0 0px;
+      
+  }
+  
+  .our_vision{
+      width: 100%;
+      background-color: black;
+      
+  }
+  .vision_news{
+      display: flex;
+      padding: 80px ;
+  }
+  .vision{
+      width: 55%;
+      color: #fff;
+      padding:0 20px 0 0;
+      box-sizing: border-box;
+  }
+  .vision h1{
+      font-size: 72px;
+      font-weight: 100;
+      
+  }
+  .vision p{
+      padding-bottom: 40px;
+  }
+  .vision p span{
+      color:rgb(236, 107, 91);
+  }
+  .vision a{
+      color:rgb(236, 107, 91);
+      text-decoration: none;
+  }
+  
+  .vision_news .news{
+      color: #fff;
+      padding: 330px 20px 0px 20px;
+      width: 45%;
+  }
+  
+  .vision_news .news h6{
+      color:#fff ;
+  }
+  
+  .vision_news .news p{
+      color: gray;
+      font-size: 12px;
+  }
+  
+  
+  .vision_news .news a{
+      color:rgb(236, 107, 91);
+      font-size: 24px;
+      text-decoration: none;
+  }
+  
+  .footer{
+      background-image: url(../Fukushu/images/footer-background.png);
+      background-position: center;
+      overflow: hidden;
+      background-repeat: no-repeat;
+      background-size: cover;
+  }
+    
+  .footer  .footer_inner{
+      display: flex;
+      text-decoration: none;
+      list-style: none;
+      padding: 150px 120px 0px 120px;
+  }
+  
+  .footer .footer_links{
+      justify-content: space-between;
+      display: flex;
+      width: 500px;
+      padding: 0 60px;
+  }
+  
+  
+  
+  .footer ul h6{
+      padding: 10px 0;
+      margin: 0;
+  }
+  
+  .footer ul li{
+      list-style: none;
+      padding-top: 5px;
+  
+  }
+  .footer ul li a{
+      color: black;
+      text-decoration: none;
+      padding-left: 10px;
+      
+  }
+  .footer .final img
+  {
+      width: 100%;
+      overflow: hidden;
+  }
+  
+  
+  @media only screen and (max-width:1157px) {
+    /* For tablets: */
+    .obon .obon_main {
+      width: 50%;
+      padding: 180px 50px;
+  }
+    
+    .fresh .goodness_text p {
+      padding: 0 140px 0px 50px;
+      
+  }
+  
+  
+  .footer .footer_links{
+      width: 100%;
+      display: inline;
+      flex-wrap: wrap;
+  }
+      
+    .footer .footer_logo img{
+      width: 200px;
+      }
+  }
+  
+  @media only screen and (max-width:990px) {
+      .fresh .goodness{
+          width: 100%;
+          text-align: center;
+      }
+       /* .fresh .goodness .goodness_logo img{
+          background-color: black;
+      } */
+      .fresh .goodness .goodness_text p{
+          background-color: black;
+      } 
+  }
+  
+  @media only screen and (max-width:850px) {
+      /* For mobile phones: */
+     
+      .obon .obon_main {
+        width: 100%;
+          padding: 150px 50px;
+      }
+      .obon .obon_main p{
+        background-color: black;
+
+      }
+    
+      .vision_news .vision h1{
+        font-size: 65px;
+    }
+    
+    .vision_news .news a {
+      font-size: 22px;
+    }
+  }
+  
+  @media only screen and (max-width:767px) {
+      .navbar-toggler{
+          display:block;
+  
+      }
+  
+  }
+  
+  @media only screen and (max-width:741px) {
+    /* For mobile phones: */
+    .announce h3 {
+      font-size: 17px;
+      margin: 0;
+  }
+  .announce p {
+      font-size: 25px;
+      margin: 0;
+  }
+  .fresh .goodness_text p {
+      width: 100%;
+      text-align: center;
+      padding: 10px 30px;
+  
+  }
+   .bird_duck .bird img{
+      width: 190px;
+   }
+   .bird_duck .duck img{
+      width: 190px;
+  }
+  .our_vision .vision_news{
+      flex-wrap: wrap;
+  }
+  .vision_news .vision {
+      width: 100%;
+  }
+  .vision_news .news {
+      width: 100%;
+      padding: 40px 0px;
+  }
+    .vision_news .vision h1{
+      font-size: 55px;
+  }
+  .vision_news .news a {
+      font-size: 20px;
+    }
+    
+    .footer .footer_links{
+      padding: 0 20px;
+  }
+    .footer .footer_logo img{
+      width: 150px;
+      }
+      
+  }
+  
+  @media only screen and (max-width:692px) {
+      /* For mobile phones: */
+      .footer .footer_logo img{
+        width: 150px;
+        }
+    }
+  
+    @media only screen and (max-width:611px) {
+      /* For mobile phones: */
+      .announce h3 {
+          font-size: 16px;
+          margin: 0;
+      }
+      .announce p {
+          font-size: 23px;
+          margin: 0;
+      }
+      
+      .obon .obon_main {
+          
+          padding: 150px 50px;
+      }
+      .obon .obon_main .obon_logo img{
+          width: 250px;
+      }
+  
+      
+      .fresh .goodness {
+          width: 100%;
+      }
+      .fresh .goodness_text p {
+      
+      }
+  
+      
+      .rown{
+          flex-wrap: wrap;
+          width: 100%;
+      }
+      .rown .left{
+          width: 100%;
+          padding: 30px;
+      }
+      .rown .right{
+          width: 100%;
+          padding: 0 0px 100px 0;
+      }
+      .duck {
+          padding: 100px 0px 0 0px;
+      }
+      .bird {
+          padding: 100px 0px 0 0px;
+      }
+      .bird_duck {
+          height: 300px;
+      }
+      
+      .vision_news .vision h1{
+          font-size: 40px;
+      }
+  
+      .vision_news .vision p{
+          font-size: 15px;
+      }
+      .vision_news .news a {
+          font-size: 18px;
+        }
+  
+      .footer .footer_inner{
+          flex-wrap: wrap;
+          padding: 100px 100px 0px 160px;
+      }
+      .footer .footer ul li{
+        font-size: 15px;
+        }
+      .footer  .footer_logo img{
+          width: 150px;
+          flex-wrap: wrap;
+      }
+      .footer  .footer_inner li {
+          font-size: 15px;
+      }
+      .footer  .footer_inner li img{
+          width: 15px;
+      }
+    }
+  
+    @media only screen and (max-width:470px) {
+      /* For mobile phones: */
+      .fresh .goodness {
+          width: 100%;
+  
+      }   
+  
+      .fresh .goodness .goodness_logo{
+          padding: 10px 20px;
+      }
+      
+      .vision_news  {
+          padding: 40px 30px;
+          }
+      
+      
+      .vision_news .vision h1{
+          font-size: 30px;
+      }
+  
+      .vision_news .vision p{
+          font-size: 14px;
+      }
+      .vision_news .news a {
+          font-size: 16px;
+        }
+      
+      .footer .footer ul li{
+        font-size: 15px;
+        }
+        .footer  .footer_inner  {
+          padding: 50px 100px;
+          flex-wrap: wrap;
+          
+      }
+      .footer  .footer_logo img{
+          flex-wrap: wrap;
+      }
+      .footer  .footer_inner li {
+          font-size: 15px;
+          
+      }
+  }
+  
+  
+    @media only screen and (max-width:409px) {
+      /* For mobile phones: */
+      .navbar-brand {
+          padding: 15px 0px;
+      }
+      .navbar-brand img{
+          width: 150px;
+      }
+      
+      .announce h3 {
+          font-size: 15px;
+          margin: 0;
+      }
+      .announce p {
+          font-size: 21px;
+          margin: 0;
+      }
+      
+      .obon .obon_main .obon_logo img {
+          width: 200px;
+      }
+      
+      .fresh .goodness {
+          width: 100%;
+      }
+      .fresh .goodness .goodness_logo{
+          padding: 10px 20px;
+      }
+  
+      .fresh .goodness .goodness_logo img{
+          width: 225px;
+      }
+      
+      .footer  .footer_inner  {
+          padding: 30px 70px;
+          flex-wrap: wrap;   
+      }    
+      .footer .footer ul li{
+        font-size: 15px;
+      }
+      .footer  .footer_logo img{
+          flex-wrap: wrap;
+      }
+      .footer  .footer_inner li {
+          font-size: 15px;
+      }
+    }
+  
+    @media only screen and (max-width:349px) {
+      .navbar-toggler{
+          width: 30px;
+          height: 20px;
+  
+      }
+  
+      .fresh .goodness .goodness_logo img {
+          width: 200px;
+      }
+      .fresh .goodness .goodness_logo {
+          padding: 10px 0px;
+      }
+      .footer .footer_links{
+          padding: 0px;
+      }
+    }
+
+
+
+
+
+
+    .btn {
+        text-decoration: none;
+        background-color: white;
+        color: #888;
+        border-radius: 5px;
+        display: inline-block;
+        margin: 10px;
+        font-size: 18px;
+        text-transform: uppercase;
+        font-weight: 600;
+        padding: 10px 5px;
+      }
+      
+      /* Element */
+      .btn__price {
+        background-color: white;
+        color: #fff;
+        padding-right: 12px;
+        padding-left: 12px;
+        margin-right: -10px; /* realign button text padding */
+        font-weight: 600;
+        background-color: #333;
+        opacity: .4;
+        border-radius: 5px 0 0 5px;
+      }
+      
+      /* Element */
+      .btn__text {
+        padding: 0 10px;
+        border-radius: 0 5px 5px 0;
+      }
+      
+      /* Modifier */
+      .btn--big {
+        font-size: 28px;
+        padding: 10px;
+        font-weight: 400;
+      }
+      
+      /* Modifier */
+      .btn--blue {
+        border-color: #0074D9;
+        color: white;
+        background-color: #0074D9;
+      }
+      
+      /* Modifier */
+      .btn--orange {
+        border-color: #FF4136;
+        color: white;
+        background-color: #FF4136;
+      }
+      
+      /* Modifier */
+      .btn--green {
+        border-color: #3D9970;
+        color: white;
+        background-color: #3D9970;
+      }
+      
+      
+      body {
+        font-family: "fira-sans-2", sans-serif;
+        background-color: #ccc;
+      }
+
+
+
+
+
+
+      <a href="##" class="btn btn--orange btn--big">
+      <span class="btn__price">$3</span>
+      <span class="btn__text">Big button</span>
+    </a>
+    
+    <a href="##" class="btn btn--blue btn--big">
+      <span class="btn__price">$4</span>
+      <span class="btn__text">Big button</span>
+    </a>
+    
+    <a href="##" class="btn btn--green btn--big">
+      <span class="btn__price">$9</span>
+      <span class="btn__text">Big button</span>
+    </a>
